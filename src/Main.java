@@ -19,8 +19,8 @@ public class Main {
             scan.nextLine();
             System.out.println("Карта: " + deck.get(arrayCard.length));
             deck.remove(deck.get(arrayCard.length));
-            if (deck.size() == 0) System.out.println("\n" + "Колода закончилась!");
         }
+        if (deck.size() == 0) System.out.println("\n" + "Колода закончилась!");
     }
 
     public static void main(String[] args) {
