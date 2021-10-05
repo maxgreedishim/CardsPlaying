@@ -14,12 +14,12 @@ public class Main {
     }
     private static void dealCards() {
          while (deck.size() != 0) {
-            System.out.println("нажмите Enter");
+            System.out.println("\n" + "Нажмите Enter");
             Scanner scan = new Scanner(System.in);
             scan.nextLine();
             System.out.println("Карта: " + deck.get(arrayCard.length));
             deck.remove(deck.get(arrayCard.length));
-            if (deck.size() == 0) System.out.println("Колода закончилась");
+            if (deck.size() == 0) System.out.println("\n" + "Колода закончилась!");
         }
     }
 
