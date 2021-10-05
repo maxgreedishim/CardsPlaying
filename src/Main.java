@@ -13,16 +13,15 @@ public class Main {
         for (Card card : deck) System.out.println(card);
     }
     private static void dealCards() {
-        while (deck.size() != 0) {
+         while (deck.size() != 0) {
             System.out.println("нажмите Enter");
             Scanner scan = new Scanner(System.in);
-            String readString = scan.nextLine();
+            scan.nextLine();
             System.out.println("Карта: " + deck.get(arrayCard.length));
             deck.remove(deck.get(arrayCard.length));
             if (deck.size() == 0) System.out.println("Колода закончилась");
         }
     }
-
 
     public static void main(String[] args) {
         dealCards();
