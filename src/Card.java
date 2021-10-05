@@ -10,7 +10,10 @@ enum Ranks {
     QUEEN,
     KING,
     SIX,
-    SEVEN
+    SEVEN,
+    EIGHT,
+    NINE,
+    TEN
 }
 
 //diamonds (♦), clubs (♣), hearts (♥) and spades (♠)
@@ -39,6 +42,9 @@ class Card {
             case KING -> "Король";
             case SIX -> "Шестерка";
             case SEVEN -> "Семерка";
+            case EIGHT -> "Восьмерка";
+            case NINE -> "Девятка";
+            case TEN -> "Десятка";
         };
     }
 
