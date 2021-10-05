@@ -11,6 +11,7 @@ public class Main {
         }
         Collections.shuffle(deck);
         for (Card card : deck) System.out.println(card);
+        dealCards();
     }
     private static void dealCards() {
          while (deck.size() != 0) {
@@ -24,6 +25,6 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        dealCards();
+
     }
 }
